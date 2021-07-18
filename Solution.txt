@@ -1,0 +1,40 @@
+Solution File
+
+mkdir PracticeTest
+ls
+cd practiceTest
+git init
+ls -a
+vi file1.txt
+vi file2.txt
+vi file3.txt
+git add file1.txt
+git config core.autocrlf true
+git add file1.txt
+.
+.	Same for other 2
+.
+
+git branch dev
+git branch test
+
+git remote add origin https:.......
+git remote -v
+git commit -m "initial commit"
+git push -u origin master
+git checkout dev
+notepad file1.txt
+git commit -m "second commit in dev"
+git push -u origin dev
+git log
+git diff dev..master
+git status
+git checkout master
+git merge dev
+git push -u origin master
+
+
+git clone https:..........
+vi solution.txt
+
+
